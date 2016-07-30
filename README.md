@@ -65,11 +65,7 @@ Possible actions (poss_act): 1 if it the can be done, 0 if not.
    
 Enemies: To do and decide.
 
-Possible enemies.
 
--Antonio
--Rita.
--Griñó
    
    
 
