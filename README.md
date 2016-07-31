@@ -15,7 +15,7 @@ Parameters:
 
 Missing all up orientation.
 
-Charaters: To do.
+Charaters: Half done.
 
 Carlos: 
 Level 1:
@@ -44,7 +44,12 @@ To decide.
 Basic parameters (basic_param):
 -Character.
 -Level.
+-Max health
 -health  (max 100).
+-Attack
+-Defense
+-3 Attacks
+
 
 Orientation position(orient_pos):
 -Its obvious (originally x=1, y=4 orient=1)
@@ -67,6 +72,9 @@ Enemies: To do and decide.
 
 
    
+   Edit 31/07:
    
+   -Finished definition of walls in the map.
+   -Start to define characters and enemies
 
    
