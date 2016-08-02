@@ -76,5 +76,9 @@ Enemies: To do and decide.
    
    -Finished definition of walls in the map.
    -Start to define characters and enemies
+   
+   UPDATES
+   
+   Read the commits
 
    
