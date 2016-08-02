@@ -1,13 +1,18 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-
+/*
 //DEFINING THE MAP!
 int i=1;
 int x=1;
 int y=1;
+int position[2];
+position[1]=1;
+position[2]=4;
+
 //int Orientation=1; // 1 forward, 2 down, 3 backward, 4 up.
 int map_position [4][65][3]; //[Orientation][cell] [position x,position y, wall(1) or not(0)]
 
@@ -118,6 +123,7 @@ for (i=1;i<65;i++){
     }
 
 }
+*/
 // DEFINING THE CHARACTERS
 String name[3];
 String attackName[3][3];
@@ -211,6 +217,55 @@ nameEnemy[3]="Enemy 3";
 attackNameEnemy[3][1]="Robust stability";
 attackNameEnemy[3][2]="Nyquist criteria";
 attackNameEnemy[3][3]="Laboratory exam";
+
+//Enemy 3
+characterEnemy[4][1]=100; //actual health
+characterEnemy[4][2]=100; //max health
+characterEnemy[4][3]=100; //attack
+characterEnemy[4][4]=100; //defense
+characterEnemy[4][5]=100; //int refeered to attack 1
+characterEnemy[4][6]=100; //int refeered to attack 2
+characterEnemy[4][7]=100; //int refeered to attack 3
+nameEnemy[4]="Enemy 4";
+attackNameEnemy[4][1]="...";
+attackNameEnemy[4][2]="...";
+attackNameEnemy[4][3]="...";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 cout << map_position[3][56][3] ; //trying that the map is bieng well created
 	return 0;
